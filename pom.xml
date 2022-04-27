@@ -1,35 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@shehrozalam 
-WebGoat
-/
-WebGoat
-Public
-Code
-Issues
-39
-Pull requests
-1
-Discussions
-Actions
-Projects
-Wiki
-Security
-Insights
-WebGoat/pom.xml
-@zubcevic
-zubcevic update spring boot (#1242)
-Latest commit 02c3f95 16 days ago
- History
- 12 contributors
-@nbaars@dougmorato@zubcevic@lawson89@mayhew64@misfir3@dcowden@SylvainJuge@webgoat-github@maximmasiutin@matthias-g@commjoen
-683 lines (667 sloc)  28.4 KB
-   
 <?xml version="1.0"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
@@ -713,16 +681,3 @@ Latest commit 02c3f95 16 days ago
     </pluginRepositories>
 
 </project>
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Loading complete
