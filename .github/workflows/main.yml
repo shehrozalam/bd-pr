@@ -41,6 +41,6 @@ jobs:
           bd_token: ${{ secrets.BLACKDUCK_API_TOKEN }}
           bd_trustcert: true
           comment_on_pr: true
-          fix_pr: true
+          #fix_pr: true
         env:
           GITHUB_TOKEN: ${{ github.token }}
