@@ -67,7 +67,7 @@
 		</dependency>
 	
 		
-		<!-- struts -->
+		<!-- struts a -->
 		<!-- -->
 		<dependency>
 		    <groupId>org.apache.struts</groupId>
