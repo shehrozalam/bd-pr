@@ -34,13 +34,12 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-      - name: Run Baseline Black Duck Scan (manual, workflow dispatch)
-        if: ${{github.event_name == 'workflow_dispatch'}}
+      - name: Black Duck security scan
         uses: synopsys-sig-community/blackduck-direct-scan-action@v1
         with:
           bd_url: ${{ secrets.BLACKDUCK_URL }}
           bd_token: ${{ secrets.BLACKDUCK_API_TOKEN }}
-          mode: intelligent
           upgrade_major: true
+          bd_trustcert: true
         env:
           GITHUB_TOKEN: ${{ github.token }}
